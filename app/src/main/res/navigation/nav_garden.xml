@@ -15,10 +15,12 @@
             app:popEnterAnim="@anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_right" />
     </fragment>
+
     <fragment
         android:id="@+id/plant_detail_fragment"
         android:name="com.test.sunflower.PlantDetailFragment"
         tools:layout="@layout/plant_detail_fragment">
+
         <action
             android:id="@+id/action_plant_detail_to_gallery"
             app:destination="@id/gallery_fragment"
